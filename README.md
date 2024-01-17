@@ -1,1 +1,1 @@
-#This just a small project i using html,css and js to complete!!
+#This is just a small project that I am using HTML, CSS, and JS to complete!
