@@ -1,0 +1,86 @@
+* { 
+    box-sizing: border-box; 
+    padding:0 ;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+} 
+ body { 
+    font-family: Arial; padding: 10px;
+    /* background: black; */
+} 
+.row{
+    margin-top: 120px;
+}
+ .leftcolumn { 
+        float: left; 
+        width: 25%; 
+}
+
+.rightcolumn 
+ { 
+    float: left;
+     width: 75%; 
+     padding-left: 20px;
+ }
+ .row .leftcolumn{
+    vertical-align: top;
+    background-color: #f39c12;
+    margin-top: 8px;
+    height: 300px;
+    border-radius: 20px;
+ }
+ .row .leftcolumn fieldset{
+   font-size: 20px;
+   font-weight: bold;
+  
+ }
+ .row .leftcolumn fieldset legend{
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    padding-top: 25px;
+ }
+ .row .leftcolumn fieldset input{
+    margin: 10px;
+    padding-left: 15px;
+    color: #fff;
+ }
+ .row .leftcolumn .search {
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 25%;
+    background-color: #fff;
+    width: 200px;
+    border-radius: 10px;
+ }
+ .row .leftcolumn .search input{
+    margin-top: 6px;
+    border: none;
+    width: 140px; 
+    outline: none;
+    padding: 5px;
+ }
+ .row .leftcolumn .search i{
+    margin-right: 5px;
+    padding-bottom: 12px;
+  
+ }
+ .row .leftcolumn .btn-s {
+    text-align: center;
+    margin-top: 6px;
+ }
+ .row .leftcolumn .btn-s input{
+    font-size: 15px;
+    color: #fff;
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 5px;
+ }
+ .row .leftcolumn .btn-s input:hover{
+   color: black;
+   background-color: aliceblue;
+   cursor: pointer;
+ }
+

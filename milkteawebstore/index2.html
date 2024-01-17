@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/0a2fc08eee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main2.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>trang menu</title>
+</head>
+<body>
+    <header class="header">
+
+        <a href="index.html" class="logo">
+            <img src="img/logo.png" alt=""> 
+            <div class="namelogo">
+                <span>Trà sữa TP</span>
+            </div>
+        </a>
+        <nav class="navbar">
+            <a href="index.html">Trang Chủ</a>
+            <a href="docthem.html">Về chúng tôi </a>
+            <a href="#menu">menu</a>
+            <a href="#products">Sản Phẩm</a>
+            <a href="#contact">Liên Hệ</a>
+     
+        </nav>
+    
+        <div class="icons">
+            <!-- <div class="fas fa-search" id="search-btn"></div> -->
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div>
+                <a href="dangki.html"><i class="fa-solid fa-user" style="color: #000000;width:25px; height:25px;"></i></a>
+            </div>
+        </div>
+    
+
+        <div class="cart-items-container">
+            <div class="cart-items"></div>
+            <div class="tong">
+                <span>Tổng cộng: </span><span class="total-price">0</span> 
+            </div>
+            <div class="buy-now-container">
+                <button class="buy-now-btn">Thanh toán</button>
+                <button class="delete-all-btn">Xóa tất cả</button>
+            </div>
+            
+        </div>
+    
+    </header>
+    
+
+    <!-- main -->
+   
+    <div class="row">
+        <div class="leftcolumn">
+                    <fieldset >
+                        <legend>Phân Loại</legend>
+                        <input type="radio" name="muc" value="1" checked style="color: #fff;"> Xem tất cả <br/>
+                        <input type="radio" name="muc" value="2" > Tìm theo tên <br/>
+                        <input type="radio" name="muc" value="3" > Tìm theo giá tiền 
+                    </fieldset>
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="search-input" onkeyup="search()" placeholder="Tìm kiếm....">
+                    </div>
+                    <div class="btn-s">
+                        <input type="submit" name="tim" value=" Tìm Kiếm ">
+                    </div>
+                    
+        </div> 
+        
+      <div class="rightcolumn">
+        <div class="card">
+            <section class="menu" id="menu">
+
+                <h1 class="heading"> Full <span>menu</span> </h1>
+            
+                <div class="box-container">
+                   
+                    <div class="box">
+                        <img src="img/trend1.jpg" alt="">
+                        <h3> Trà sữa trân châu đường đen</h3>
+                        <div class="price">40.000 </div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/trend2.jpg" alt="">
+                        <h3> Trà sữa caramel</h3>
+                        <div class="price">65.000 </div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/trend3.jpg" alt="">
+                        <h3> Hồng Trà Sữa</h3>
+                        <div class="price">60.000 </div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/ts1.jpg" alt="">
+                        <h3> Trà sữa socola</h3>
+                        <div class="price">40.000 </div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+            
+                    <div class="box">
+                        <img src="img/ts2.jpg" alt="">
+                        <h3> Trà sữa khoai môn</h3>
+                        <div class="price">30.000 </div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+            
+                    <div class="box">
+                        <img src="img/ts3.jpg" alt="">
+                        <h3>Trà sữa bạc hà</h3>
+                        <div class="price">40.000 </div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+            
+                    <div class="box">
+                        <img src="img/ts4.jpg" alt="">
+                        <h3>Trà sữa matcha</h3>
+                        <div class="price">50.000 </div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+            
+                    <div class="box">
+                        <img src="img/ts5.jpg" alt="">
+                        <h3>Trà sữa oreo kem cheese</h3>
+                        <div class="price">50.000 </div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+            
+                    <div class="box">
+                        <img src="img/ts6.jpg" alt="">
+                        <h3>Trà sữa xoài</h3>
+                        <div class="price">40.000</div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+                    <div class="box">
+                        <img src="img/ts7.jpg" alt="">
+                        <h3>Trà sữa Pudding</h3>
+                        <div class="price">40.000</div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+                    <div class="box">
+                        <img src="img/ts8.jpg" alt="">
+                        <h3>Trà sữa Sương Sáo</h3>
+                        <div class="price">40.000</div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+
+                    <div class="box">
+                        <img src="img/ts9.jpg" alt="">
+                        <h3>Trà sữa Thái Xanh</h3>
+                        <div class="price">45.000</div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+                    <div class="box">
+                        <img src="img/ts10.jpg" alt="">
+                        <h3>Trà sữa Thái Đỏ</h3>
+                        <div class="price">45.000</div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+                    <div class="box">
+                        <img src="img/ts11.jpg" alt="">
+                        <h3>Trà sữa Cà Phê</h3>
+                        <div class="price">30.000</div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+                    <div class="box">
+                        <img src="img/ts12.jpg" alt="">
+                        <h3>Trà sữa Thạch củ Năng</h3>
+                        <div class="price">40.000</div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+                    <div class="box">
+                        <img src="img/ts13.jpg" alt="">
+                        <h3>Trà sữa Thạch Phô Mai</h3>
+                        <div class="price">50.000</div>
+                        <div class="size"> SIZE: 
+                            <span>M</span>
+                            <span>L</span>
+                            <span>XL</span>
+                        </div>
+                        <button class="btn buy-now-link" class="btn">Thêm vào giỏ</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+       </div>    
+    </div>
+
+</body>
+<!-- <script src="main.js"></script> -->
+<script src="js/cart.js"></script>
+<script src="js/search.js"></script>
+</html>

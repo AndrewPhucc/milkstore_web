@@ -1,0 +1,103 @@
+.about{
+ height: 2500px;
+ width: 100%;
+}
+.about .row .content {
+    margin-top: 50px;
+}
+.big{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.big {
+    text-align: center;
+  }
+
+.big p {
+    color: aqua;
+    position: relative;
+    display: inline-block;
+    font-size: 54px; /* Độ lớn của font chữ */
+    font-family: "Arial", sans-serif; /* Font chữ sử dụng */
+  }
+.big p::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-image: linear-gradient(to right, rgb(245, 33, 0), #fff, #f51900); /* Gradient từ màu đỏ đến trắng đến màu đỏ */
+  }
+ .new{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+ .new .anh{
+    flex:1 1 45rem;
+}
+ .new .anh img{
+    width: 100%;
+    height: 550px;
+   border-radius: 20px;
+ }
+ .new .str{
+    flex:1 1 45rem;
+    padding:2rem;
+ }
+ .new .str h3{
+    font-size: 3rem;
+    color:#fff;
+ }
+ .new .str p {
+    font-size: 1.6rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+ }
+
+ .contain {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .boxx {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .title {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .title p{
+    font-size: 2rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+  }
+
+  .contents {
+    margin-top: 10px;
+  }
+  .contents p {
+    font-size: 1.5rem;
+    color:#ccc;
+    padding:1rem 0;
+    line-height: 1.8;
+  }
+  .contents img{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+  }
+
+  
+
